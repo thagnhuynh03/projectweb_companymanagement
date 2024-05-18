@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\huynhkimthang_0145_Final_LTC#.props" />
+</Project>

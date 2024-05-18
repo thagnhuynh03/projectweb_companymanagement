@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\huynhkimthang_0145_Final_LTC#.props" />
+</Project>
