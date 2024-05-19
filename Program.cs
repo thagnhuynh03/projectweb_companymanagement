@@ -1,6 +1,13 @@
+using huynhkimthang_0145_Final_LTC_.Models.Entities;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.AddDbContext<CompanyManagementContext>(options =>
+{
+    options.UseSqlServer(builder.Configuration.GetConnectionString("constring") ?? throw new InvalidOperationException("Connection string CompanyManagementDatabase not found."));
+});
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
