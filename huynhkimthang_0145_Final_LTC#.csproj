@@ -20,4 +20,8 @@
     <Folder Include="Models\Entities\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Include="wwwroot\css\style.css" />
+  </ItemGroup>
+
 </Project>
