@@ -87,8 +87,10 @@
                     <a href="/" class="navigation-link w-nav-link post-button">Publish a post</a>
                 </nav>
                 <div class="search-bar">
-                    <input type="text" class="search-input" placeholder="Search...">
-                    <button class="search-button">Search</button>
+                    <form asp-controller="Post" asp-action="Search" method="get">
+                        <input type="text" name="query" class="search-input" placeholder="Search...">
+                        <button type= "submit" class="search-button">Search</button>
+                    </form>
                 </div>
                 
                 <div class="menu-button w-nav-button">
