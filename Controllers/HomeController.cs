@@ -2,6 +2,7 @@ using huynhkimthang_0145_Final_LTC_.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 using huynhkimthang_0145_Final_LTC_.Models.Entities;
+using Microsoft.EntityFrameworkCore;
 
 namespace huynhkimthang_0145_Final_LTC_.Controllers
 {
@@ -16,9 +17,23 @@ namespace huynhkimthang_0145_Final_LTC_.Controllers
             _companyManagementContext = companyManagementContext;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            return View();
+            var announcements = await _companyManagementContext.Announcements
+                .Include(a => a.Post)
+                .Include(a => a.Post.Emp)
+                .Include(a => a.AnnCate)
+                .ToListAsync();
+            var schedules = await _companyManagementContext.Schedules
+                .Include(s => s.Post)
+                .ToListAsync();
+            var listModel = new PostModel()
+            {
+                listAnnouncement = announcements,
+                listsShedule = schedules
+            };
+            
+            return View(listModel);
         }
 
         public IActionResult Privacy()

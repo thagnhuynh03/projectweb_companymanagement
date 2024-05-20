@@ -21,6 +21,8 @@ public partial class Employee
 
     public DateOnly? DateOfBirth { get; set; }
 
+    public string? Avartar { get; set; }
+
     public int? DepId { get; set; }
 
     public int? RoleId { get; set; }

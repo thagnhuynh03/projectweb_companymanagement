@@ -39,7 +39,7 @@ public partial class CompanyManagementContext : DbContext
     {
         modelBuilder.Entity<Announcement>(entity =>
         {
-            entity.HasKey(e => e.AnnId).HasName("PK__Announce__1C67F94B61DAE422");
+            entity.HasKey(e => e.AnnId).HasName("PK__Announce__1C67F94B298AB6AC");
 
             entity.ToTable("Announcement");
 
@@ -54,7 +54,7 @@ public partial class CompanyManagementContext : DbContext
 
         modelBuilder.Entity<AnnouncementCategory>(entity =>
         {
-            entity.HasKey(e => e.AnnCateId).HasName("PK__Announce__B41C41AE57BA3B97");
+            entity.HasKey(e => e.AnnCateId).HasName("PK__Announce__B41C41AEA7EFDC0D");
 
             entity.ToTable("AnnouncementCategory");
 
@@ -64,7 +64,7 @@ public partial class CompanyManagementContext : DbContext
 
         modelBuilder.Entity<Department>(entity =>
         {
-            entity.HasKey(e => e.DepId).HasName("PK__Departme__DB9CAA5F1080FAFA");
+            entity.HasKey(e => e.DepId).HasName("PK__Departme__DB9CAA5F4C96607A");
 
             entity.ToTable("Department");
 
@@ -74,10 +74,13 @@ public partial class CompanyManagementContext : DbContext
 
         modelBuilder.Entity<Employee>(entity =>
         {
-            entity.HasKey(e => e.EmpId).HasName("PK__Employee__AF2DBB997471DF86");
+            entity.HasKey(e => e.EmpId).HasName("PK__Employee__AF2DBB99682671A8");
 
             entity.ToTable("Employee");
 
+            entity.Property(e => e.Avartar)
+                .HasMaxLength(100)
+                .IsUnicode(false);
             entity.Property(e => e.Email)
                 .HasMaxLength(100)
                 .IsUnicode(false);
@@ -100,7 +103,7 @@ public partial class CompanyManagementContext : DbContext
 
         modelBuilder.Entity<Post>(entity =>
         {
-            entity.HasKey(e => e.PostId).HasName("PK__Post__AA126018B6DBC2C6");
+            entity.HasKey(e => e.PostId).HasName("PK__Post__AA126018F8EF02FB");
 
             entity.ToTable("Post");
 
@@ -120,7 +123,7 @@ public partial class CompanyManagementContext : DbContext
 
         modelBuilder.Entity<PostCategory>(entity =>
         {
-            entity.HasKey(e => e.PostCateId).HasName("PK__PostCate__A0BFCB7F94CB63BD");
+            entity.HasKey(e => e.PostCateId).HasName("PK__PostCate__A0BFCB7F534B7E60");
 
             entity.ToTable("PostCategory");
 
@@ -130,7 +133,7 @@ public partial class CompanyManagementContext : DbContext
 
         modelBuilder.Entity<Role>(entity =>
         {
-            entity.HasKey(e => e.RoleId).HasName("PK__Role__8AFACE1A6C3C091D");
+            entity.HasKey(e => e.RoleId).HasName("PK__Role__8AFACE1A9DB1B16F");
 
             entity.ToTable("Role");
 
@@ -140,7 +143,7 @@ public partial class CompanyManagementContext : DbContext
 
         modelBuilder.Entity<Schedule>(entity =>
         {
-            entity.HasKey(e => e.SchId).HasName("PK__Schedule__CAD9870B7FDD1A99");
+            entity.HasKey(e => e.SchId).HasName("PK__Schedule__CAD9870B8AD678BD");
 
             entity.ToTable("Schedule");
 
