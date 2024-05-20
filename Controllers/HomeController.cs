@@ -26,6 +26,7 @@ namespace huynhkimthang_0145_Final_LTC_.Controllers
                 .ToListAsync();
             var schedules = await _companyManagementContext.Schedules
                 .Include(s => s.Post)
+                .Include(s => s.Post.Emp)
                 .ToListAsync();
             var listModel = new PostModel()
             {
@@ -35,7 +36,23 @@ namespace huynhkimthang_0145_Final_LTC_.Controllers
             
             return View(listModel);
         }
-
+        public async Task<IActionResult> AnouncementPost()
+        {
+            var announcements = await _companyManagementContext.Announcements
+                .Include(a => a.Post)
+                .Include(a => a.Post.Emp)
+                .Include(a => a.AnnCate)
+                .ToListAsync(); 
+            return View(announcements);
+        }
+        public async Task<IActionResult> SchedulePost()
+        {
+            var schedules = await _companyManagementContext.Schedules
+                .Include(a => a.Post)
+                .Include(a => a.Post.Emp)
+                .ToListAsync();
+            return View(schedules);
+        }
         public IActionResult Privacy()
         {
             return View();
