@@ -34,5 +34,26 @@ namespace huynhkimthang_0145_Final_LTC_.Controllers
             };
             return View(listPost);
         }
+        public async Task<IActionResult> MyAnouncementPost()
+        {
+            var idEmp = HttpContext.Session.GetInt32("idEmp");
+            var announcements = await _context.Announcements
+                .Include(a => a.Post)
+                .Include(a => a.Post.Emp)
+                .Include(a => a.AnnCate)
+                .Where(a => a.Post.EmpId.Equals(idEmp))
+                .ToListAsync();
+            return View(announcements);
+        }
+        public async Task<IActionResult> MySchedulePost()
+        {
+            var idEmp = HttpContext.Session.GetInt32("idEmp");
+            var schedules = await _context.Schedules
+                .Include(s => s.Post)
+                .Include(s => s.Post.Emp)
+                .Where(s => s.Post.EmpId.Equals(idEmp))
+                .ToListAsync();
+            return View(schedules);
+        }
     }
 }

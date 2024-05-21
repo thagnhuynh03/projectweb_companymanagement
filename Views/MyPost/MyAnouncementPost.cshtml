@@ -1,10 +1,10 @@
-﻿@model List<huynhkimthang_0145_Final_LTC_.Models.Entities.Schedule>
+﻿@model List<huynhkimthang_0145_Final_LTC_.Models.Entities.Announcement>
 @{
-    ViewData["Title"] = "SchedulePost";
+    ViewData["Title"] = "MyAnouncementPost";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 <div class="content-column w-col w-col-9">
-    <h1 class="white-bg-heading">Schedule Posts</h1>
+    <h1 class="white-bg-heading">Announcement Posts</h1>
     <div class="w-dyn-list">
         <div role="list" class="w-dyn-items">
             @foreach (var item in Model.OrderByDescending(a => a.Post.CreatedDate))
@@ -17,27 +17,14 @@
                                     <a href="/" style="background-image:url(&quot;@item.Post.ThumbnailImg&quot;)" class="blog-image w-inline-block"></a>
                                 </div>
                                 <div class="w-col w-col-8 w-col-medium-8">
-                                    <a href="/posts/coffee-sugar-chicory-seasonal-espresso-barista-americano" class="blog-title-link w-inline-block">
+                                    <a href="/" class="blog-title-link w-inline-block">
                                         <h1 foo="bar" class="blog-title">@item.Post.Title</h1>
                                     </a>
                                     <div class="details-wrapper">
-                                        <div class="schedule-info">
-                                            <div class="icon-wrapper">
-                                                <img src="/Img/calendar.png" alt="" class="icon">
-                                            </div>
-                                            <div class="time-info">@item.StartTime</div>
-                                        </div>
-                                        <div class="schedule-info">
-                                            <div class="icon-wrapper">
-                                                <img src="/Img/location.png" alt="" class="icon">
-                                            </div>
-                                            <div class="location-info">@item.Loacation</div>
-                                        </div>
+                                        <div class="post-info">@item.AnnCate.AnnCateName</div>
                                     </div>
                                     <div class="post-summary-wrapper">
-                                        <p class="post-summary">
-                                            @item.Post.Content
-                                        </p>
+                                        <p class="post-summary">@item.Post.Content</p>
 
                                     </div>
 
@@ -49,8 +36,8 @@
                     </div>
                 </div>
             }
-
         </div>
     </div>
 </div>
+
 
