@@ -19,6 +19,10 @@ namespace huynhkimthang_0145_Final_LTC_.Controllers
 
         public async Task<IActionResult> Index()
         {
+            if (HttpContext.Session.GetInt32("idEmp") == null)
+            {
+                return RedirectToAction("LogIn", "LogIn");
+            }    
             var announcements = await _companyManagementContext.Announcements
                 .Include(a => a.Post)
                 .Include(a => a.Post.Emp)
