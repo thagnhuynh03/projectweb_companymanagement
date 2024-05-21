@@ -88,7 +88,13 @@
                             <a href="/" class="dropdown-item">My infomation</a>
                         </div>
                     </div>
-                    <a href="/" class="navigation-link w-nav-link post-button">Publish a post</a>
+                    <div class="dropdown publish-dropdown">
+                        <a href="/" class="navigation-link w-nav-link post-button">Publish a post</a>
+                        <div class="dropdown-content">
+                            <a href="@Url.Action("CreateAnouncementPost", "MyPost")" class="dropdown-item">Announcement Post</a>
+                            <a href="@Url.Action("CreateSchedulePost", "MyPost")" class="dropdown-item">Schedule Post</a>
+                        </div>
+                    </div>
                 </nav>
                 <div class="search-bar">
                     <form asp-controller="Post" asp-action="Search" method="get">

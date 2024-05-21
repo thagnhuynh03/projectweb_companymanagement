@@ -19,17 +19,14 @@
                     <h2 class="auth-form-title">
                         Sign In
                     </h2>
-                    @*<form class="login-form">*@
                     @using (Html.BeginForm("LogIn", "LogIn", FormMethod.Post))
                     {
-                        @*<input type="email" class="auth-form-input" placeholder="Email">*@
                         @Html.TextBoxFor(e => e.Email, new { @class = "auth-form-input", placeholder = "Email", requiredrequired = "required" })
                         <div class="input-icon m mb">
-                            @*<input type="password" class="auth-form-input" placeholder="Password">*@
                             @Html.TextBoxFor(e => e.Password, new { @class = "auth-form-input", placeholder = "Password", requiredrequired = "required", type = "password" })
                         </div>
                         <label class="btn active">
-                            <input type="checkbox" name='email1' checked>
+                            <input type="checkbox" name='email' checked>
                             <i class="fa fa-square-o"></i><i class="fa fa-check-square-o"></i>
                             <span> Remember password.</span>
                         </label>
@@ -37,7 +34,7 @@
                             <input type="submit" value="Sign In" class="auth-submit">
                             <a href="register.html" class="auth-btn-direct">Sign Up</a>
                         </div>
-                    } @*</form>*@
+                    }
                     @if (ViewBag.error != null)
                     {
                         <div class="auth-forgot-password">
