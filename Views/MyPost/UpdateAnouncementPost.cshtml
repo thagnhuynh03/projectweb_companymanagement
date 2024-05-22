@@ -25,7 +25,7 @@
                                 <div class="form-group">
                                     <label for="form_title">Title *</label>
                                     <input id="form_title" type="text" asp-for="Title" class="form-control" placeholder="Enter your post title *" required="required" data-error="Title is required.">
-                                    <div class="help-block with-errors"></div>
+                                    @Html.ValidationMessageFor(model => model.Title)
                                 </div>
                             </div>
                         </div>

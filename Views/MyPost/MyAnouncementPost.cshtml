@@ -31,7 +31,7 @@
                                 </div>
 
                             </div>
-                            <div class="post-author">Posted by: @item.Post.Emp.EmpName | Created on: @item.Post.CreatedDate</div>
+                            <div class="post-author">Posted by: @item.Post.Emp.EmpName | Created on: @item.Post.CreatedDate?.ToString("dd/MM/yyyy")</div>
                             <div class="dropdown-trigger">
                                 <span>•••</span>
                                 <div class="dropdown-menu">

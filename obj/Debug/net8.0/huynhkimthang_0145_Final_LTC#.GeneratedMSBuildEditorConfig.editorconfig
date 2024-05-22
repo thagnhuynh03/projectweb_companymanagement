@@ -26,6 +26,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\Lập trình web c#\huynhkimthang_0145_Final_LTC#
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/Lập trình web c\#/huynhkimthang_0145_Final_LTC\#/Views/Admin/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lập trình web c\#/huynhkimthang_0145_Final_LTC\#/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Lập trình web c\#/huynhkimthang_0145_Final_LTC\#/Views/Home/AnouncementPost.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBbm91bmNlbWVudFBvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
