@@ -1,0 +1,64 @@
+﻿@model List<huynhkimthang_0145_Final_LTC_.Models.Entities.Schedule>
+@{
+    ViewData["Title"] = "MySchedulePost";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="content-column w-col w-col-9">
+    <h1 class="white-bg-heading">Schedule Posts</h1>
+    <div class="w-dyn-list">
+        <div role="list" class="w-dyn-items">
+            @foreach (var item in Model.OrderByDescending(a => a.Post.CreatedDate))
+            {
+                <div role="listitem" class="w-dyn-item">
+                    <div data-w-id="53cc7567-513c-3103-cd72-dfb075f10bef" class="post-wrapper">
+                        <div class="post-content">
+                            <div class="w-row">
+                                <div class="w-col w-col-4 w-col-medium-4">
+                                    <a href="/" style="background-image:url(&quot;/Img/@item.Post.ThumbnailImg&quot;)" class="blog-image w-inline-block"></a>
+                                </div>
+                                <div class="w-col w-col-8 w-col-medium-8">
+                                    <a href="/posts/coffee-sugar-chicory-seasonal-espresso-barista-americano" class="blog-title-link w-inline-block">
+                                        <h1 foo="bar" class="blog-title">@item.Post.Title</h1>
+                                    </a>
+                                    <div class="details-wrapper">
+                                        <div class="schedule-info">
+                                            <div class="icon-wrapper">
+                                                <img src="/Img/calendar.png" alt="" class="icon">
+                                            </div>
+                                            <div class="time-info">@item.StartTime?.ToString("dd/MM/yyyy hh:mm tt")</div>
+                                        </div>
+                                        <div class="schedule-info">
+                                            <div class="icon-wrapper">
+                                                <img src="/Img/location.png" alt="" class="icon">
+                                            </div>
+                                            <div class="location-info">@item.Loacation</div>
+                                        </div>
+                                    </div>
+                                    <div class="post-summary-wrapper">
+                                        <p class="post-summary">
+                                            @item.Post.Content
+                                        </p>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            <div class="post-author">Posted by: @item.Post.Emp.EmpName | Created on: @item.Post.CreatedDate?.ToString("dd/MM/yyyy")</div>
+                            <div class="dropdown-trigger">
+                                <span>•••</span>
+                                <div class="dropdown-menu">
+                                    <a asp-controller="MyPost" asp-action="UpdateSchedulePost" asp-route-id="@item.SchId">Update</a>
+                                    <a asp-controller="MyPost" asp-action="DeleteSchedulePost" asp-route-id="@item.SchId">Delete</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+
+        </div>
+    </div>
+</div>
+
+

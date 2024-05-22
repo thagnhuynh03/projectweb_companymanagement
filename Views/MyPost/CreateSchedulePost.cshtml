@@ -1,0 +1,78 @@
+﻿@model huynhkimthang_0145_Final_LTC_.Models.ScheduleViewModel
+@{
+    ViewData["Title"] = "CreateSchedulePost";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="content-column w-col w-col-9">
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-xl-8 offset-xl-2 py-5">
+                <h1>New Schedule Post</h1>
+                <form id="post-form" method="post" asp-action="CreateSchedulePost" role="form" enctype="multipart/form-data">
+                    <div class="messages"></div>
+                    <div class="controls">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label for="form_title">Title *</label>
+                                    <input id="form_title" type="text" asp-for="Title" class="form-control" placeholder="Enter your post title *" required="required" data-error="Title is required.">
+                                    @Html.ValidationMessageFor(model => model.Title)
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label for="form_content">Content *</label>
+                                    <textarea id="form_content" asp-for="Content" class="form-control" placeholder="Enter your post content *" rows="4" required="required" data-error="Content is required."></textarea>
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label for="form_image">Image URL *</label><br>
+                                    <input id="form_image" asp-for="ThumbnailImg" required="required" data-error="Image URL is required.">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label for="form_datetime">Date and Time *</label>
+                                    <input id="form_datetime" type="datetime-local" asp-for="Time" class="form-control" required="required" data-error="Date and time are required.">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label for="form_location">Location *</label>
+                                    <input id="form_location" type="text" asp-for="Location" class="form-control" placeholder="Enter your schedule location *" required="required" data-error="Title is required.">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <input type="submit" class="btn btn-success btn-send" value="Pushlish">
+                            </div>
+                        </div>
+                    </div>
+
+                </form>
+
+            </div>
+            <!-- /.8 -->
+
+        </div>
+        <!-- /.row-->
+
+    </div>
+</div>
+

@@ -1,0 +1,76 @@
+﻿@model huynhkimthang_0145_Final_LTC_.Models.AnouncementViewModel
+@{
+    ViewData["Title"] = "CreateAnouncementPost";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="content-column w-col w-col-9">
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-xl-8 offset-xl-2 py-5">
+                <h1>New Anouncement Post</h1>
+                <form id="post-form" method="post" asp-action="CreateAnouncementPost" role="form" enctype="multipart/form-data">
+                    <div class="messages"></div>
+                    <div class="controls">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label for="form_title">Title *</label>
+                                    <input id="form_title" type="text" asp-for="Title" class="form-control" placeholder="Enter your post title *" required="required" data-error="Title is required.">
+                                    @Html.ValidationMessageFor(model => model.Title)
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label for="form_content">Content *</label>
+                                    <textarea id="form_content" asp-for="Content" class="form-control" placeholder="Enter your post content *" rows="4" required="required" data-error="Content is required."></textarea>
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label for="form_image">Image URL *</label><br>
+                                    <input id="form_image" asp-for="ThumbnailImg" required="required" data-error="Image URL is required.">
+                                    <!-- <div class="help-block with-errors"></div> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label for="form_category">Category *</label>
+                                    <select id="form_category" asp-for="AnnCateId" class="form-control" required="required" data-error="Please select a category.">
+                                        <option value=""></option>
+                                        @foreach (var item in ViewBag.Categories)
+                                        {
+                                            <option value="@item.AnnCateId">@item.AnnCateName</option>
+                                        }
+                                    </select>
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <input type="submit" class="btn btn-success btn-send" value="Pushlish">
+                            </div>
+                        </div>
+                    </div>
+
+                </form>
+
+            </div>
+            <!-- /.8 -->
+
+        </div>
+        <!-- /.row-->
+
+    </div>
+</div>
+
+

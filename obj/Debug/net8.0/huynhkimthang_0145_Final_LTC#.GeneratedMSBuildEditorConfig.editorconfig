@@ -1,11 +1,19 @@
 is_global = true
 build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = huynhkimthang_0145_Final_LTC_
 build_property.RootNamespace = huynhkimthang_0145_Final_LTC_
@@ -18,12 +26,64 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\Lập trình web c#\huynhkimthang_0145_Final_LTC#
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/Lập trình web c\#/huynhkimthang_0145_Final_LTC\#/Views/Admin/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lập trình web c\#/huynhkimthang_0145_Final_LTC\#/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lập trình web c\#/huynhkimthang_0145_Final_LTC\#/Views/Home/AnouncementPost.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBbm91bmNlbWVudFBvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Lập trình web c\#/huynhkimthang_0145_Final_LTC\#/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Lập trình web c\#/huynhkimthang_0145_Final_LTC\#/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lập trình web c\#/huynhkimthang_0145_Final_LTC\#/Views/Home/SchedulePost.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTY2hlZHVsZVBvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lập trình web c\#/huynhkimthang_0145_Final_LTC\#/Views/LogIn/LogIn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9nSW5cTG9nSW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lập trình web c\#/huynhkimthang_0145_Final_LTC\#/Views/MyPost/CreateAnouncementPost.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXlQb3N0XENyZWF0ZUFub3VuY2VtZW50UG9zdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lập trình web c\#/huynhkimthang_0145_Final_LTC\#/Views/MyPost/CreateSchedulePost.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXlQb3N0XENyZWF0ZVNjaGVkdWxlUG9zdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lập trình web c\#/huynhkimthang_0145_Final_LTC\#/Views/MyPost/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXlQb3N0XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lập trình web c\#/huynhkimthang_0145_Final_LTC\#/Views/MyPost/MyAnouncementPost.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXlQb3N0XE15QW5vdW5jZW1lbnRQb3N0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lập trình web c\#/huynhkimthang_0145_Final_LTC\#/Views/MyPost/MySchedulePost.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXlQb3N0XE15U2NoZWR1bGVQb3N0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lập trình web c\#/huynhkimthang_0145_Final_LTC\#/Views/MyPost/UpdateAnouncementPost.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXlQb3N0XFVwZGF0ZUFub3VuY2VtZW50UG9zdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lập trình web c\#/huynhkimthang_0145_Final_LTC\#/Views/MyPost/UpdateSchedulePost.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXlQb3N0XFVwZGF0ZVNjaGVkdWxlUG9zdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lập trình web c\#/huynhkimthang_0145_Final_LTC\#/Views/Post/Search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdFxTZWFyY2guY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Lập trình web c\#/huynhkimthang_0145_Final_LTC\#/Views/Shared/Error.cshtml]
