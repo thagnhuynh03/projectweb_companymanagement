@@ -205,5 +205,64 @@ namespace huynhkimthang_0145_Final_LTC_.Controllers
             _context.SaveChanges();
             return RedirectToAction("Index", "MyPost");
         }
+
+        [HttpGet]
+        public IActionResult UpdateSchedulePost(int id)
+        {
+            var schedule = _context.Schedules
+            .Include(a => a.Post)
+            .FirstOrDefault(a => a.SchId == id);
+            if (schedule == null || schedule.Post == null)
+            {
+                return RedirectToAction("Index", "MyPost");
+            }
+            var model = new ScheduleViewModel()
+            {
+                Title = schedule.Post.Title,
+                Content = schedule.Post.Content,
+                Time = schedule.StartTime,
+                Location = schedule.Loacation
+            };
+
+            ViewData["SchId"] = schedule.SchId;
+            ViewData["ImgFileName"] = schedule.Post.ThumbnailImg;
+            return View(model);
+        }
+        [HttpPost]
+        public IActionResult UpdateSchedulePost(int id, ScheduleViewModel model)
+        {
+            var schedule = _context.Schedules
+            .Include(a => a.Post)
+            .FirstOrDefault(a => a.SchId == id);
+            if (schedule == null || schedule.Post == null)
+            {
+                return RedirectToAction("Index", "MyPost");
+            }
+
+            string newFileName = schedule.Post.ThumbnailImg;
+            if (model.ThumbnailImg != null)
+            {
+                newFileName = DateTime.Now.ToString("yyyyMMddHHmmssfff");
+                newFileName += Path.GetExtension(model.ThumbnailImg.FileName);
+
+                string imageFullPath = _environment.WebRootPath + "/Img/" + newFileName;
+                using (var stream = System.IO.File.Create(imageFullPath))
+                {
+                    model.ThumbnailImg.CopyTo(stream);
+                }
+
+                string oldImageFullPath = _environment.WebRootPath + "/Img/" + schedule.Post.ThumbnailImg;
+                System.IO.File.Delete(oldImageFullPath);
+            }
+
+            schedule.Post.Title = model.Title;
+            schedule.Post.Content = model.Content;
+            schedule.Post.ThumbnailImg = newFileName;
+            schedule.StartTime = model.Time; ;
+            schedule.Loacation = model.Location;
+
+            _context.SaveChanges();
+            return RedirectToAction("Index", "MyPost");
+        }
     }
 }
