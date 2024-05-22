@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "KHngqlUWa0Y3YIYIpG6sYaNEbxgC9LutTPZHtJqW6sE=",
+  "Hash": "yK8Gg+M8jvfAiceBZFzu3RuQdWHX6e/YhB679YfDyQM=",
   "Source": "huynhkimthang_0145_Final_LTC#",
   "BasePath": "_content/huynhkimthang_0145_Final_LTC#",
   "Mode": "Default",
@@ -205,25 +205,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Img\\20240522152634079.png"
-    },
-    {
-      "Identity": "D:\\Lập trình web c#\\huynhkimthang_0145_Final_LTC#\\wwwroot\\Img\\20240522155809525.png",
-      "SourceId": "huynhkimthang_0145_Final_LTC#",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Lập trình web c#\\huynhkimthang_0145_Final_LTC#\\wwwroot\\",
-      "BasePath": "_content/huynhkimthang_0145_Final_LTC#",
-      "RelativePath": "Img/20240522155809525.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Img\\20240522155809525.png"
     },
     {
       "Identity": "D:\\Lập trình web c#\\huynhkimthang_0145_Final_LTC#\\wwwroot\\Img\\ann3.png",

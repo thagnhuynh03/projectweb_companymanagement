@@ -264,5 +264,43 @@ namespace huynhkimthang_0145_Final_LTC_.Controllers
             _context.SaveChanges();
             return RedirectToAction("Index", "MyPost");
         }
+
+        public IActionResult DeleteAnouncementPost(int id)
+        {
+            var anouncement = _context.Announcements
+            .Include(a => a.Post)
+            .FirstOrDefault(a => a.AnnId == id);
+            if (anouncement == null || anouncement.Post == null)
+            {
+                return RedirectToAction("Index", "MyPost");
+            }
+
+            string oldImageFullPath = _environment.WebRootPath + "/Img/" + anouncement.Post.ThumbnailImg;
+            System.IO.File.Delete(oldImageFullPath);
+            var post = _context.Posts.Find(anouncement.PostId);
+            _context.Posts.Remove(post);
+            _context.Announcements.Remove(anouncement);
+            _context.SaveChanges();
+            return RedirectToAction("Index", "MyPost");
+        }
+
+        public IActionResult DeleteSchedulePost(int id)
+        {
+            var schedule = _context.Schedules
+            .Include(a => a.Post)
+            .FirstOrDefault(a => a.SchId == id);
+            if (schedule == null || schedule.Post == null)
+            {
+                return RedirectToAction("Index", "MyPost");
+            }
+
+            string oldImageFullPath = _environment.WebRootPath + "/Img/" + schedule.Post.ThumbnailImg;
+            System.IO.File.Delete(oldImageFullPath);
+            var post = _context.Posts.Find(schedule.PostId);
+            _context.Posts.Remove(post);
+            _context.Schedules.Remove(schedule);
+            _context.SaveChanges();
+            return RedirectToAction("Index", "MyPost");
+        }
     }
 }
