@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "QqLSr6A1Xn+vy5yaZeGu7Ixn/e9GqXrxc/OxcQ+onuA=",
+  "Hash": "1Js7V0VFk/0FUjS0jXDPLl8K9xOYwYa8NT6ZzRNpRCs=",
   "Source": "huynhkimthang_0145_Final_LTC#",
   "BasePath": "_content/huynhkimthang_0145_Final_LTC#",
   "Mode": "Default",
@@ -93,6 +93,25 @@
       "OriginalItemSpec": "wwwroot\\css\\style.css"
     },
     {
+      "Identity": "D:\\Lập trình web c#\\huynhkimthang_0145_Final_LTC#\\wwwroot\\css\\styleLogin.css",
+      "SourceId": "huynhkimthang_0145_Final_LTC#",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Lập trình web c#\\huynhkimthang_0145_Final_LTC#\\wwwroot\\",
+      "BasePath": "_content/huynhkimthang_0145_Final_LTC#",
+      "RelativePath": "css/styleLogin.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\styleLogin.css"
+    },
+    {
       "Identity": "D:\\Lập trình web c#\\huynhkimthang_0145_Final_LTC#\\wwwroot\\favicon.ico",
       "SourceId": "huynhkimthang_0145_Final_LTC#",
       "SourceType": "Discovered",
@@ -131,6 +150,25 @@
       "OriginalItemSpec": "wwwroot\\Img\\avartar.jpg"
     },
     {
+      "Identity": "D:\\Lập trình web c#\\huynhkimthang_0145_Final_LTC#\\wwwroot\\Img\\avartar1.png",
+      "SourceId": "huynhkimthang_0145_Final_LTC#",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Lập trình web c#\\huynhkimthang_0145_Final_LTC#\\wwwroot\\",
+      "BasePath": "_content/huynhkimthang_0145_Final_LTC#",
+      "RelativePath": "Img/avartar1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Img\\avartar1.png"
+    },
+    {
       "Identity": "D:\\Lập trình web c#\\huynhkimthang_0145_Final_LTC#\\wwwroot\\Img\\calendar.png",
       "SourceId": "huynhkimthang_0145_Final_LTC#",
       "SourceType": "Discovered",
@@ -167,6 +205,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Img\\location.png"
+    },
+    {
+      "Identity": "D:\\Lập trình web c#\\huynhkimthang_0145_Final_LTC#\\wwwroot\\js\\common.js",
+      "SourceId": "huynhkimthang_0145_Final_LTC#",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Lập trình web c#\\huynhkimthang_0145_Final_LTC#\\wwwroot\\",
+      "BasePath": "_content/huynhkimthang_0145_Final_LTC#",
+      "RelativePath": "js/common.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\common.js"
     },
     {
       "Identity": "D:\\Lập trình web c#\\huynhkimthang_0145_Final_LTC#\\wwwroot\\js\\site.js",

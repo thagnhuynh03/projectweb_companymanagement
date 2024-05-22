@@ -1,0 +1,54 @@
+﻿@model huynhkimthang_0145_Final_LTC_.Models.Entities.Employee
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LogIn</title>
+    <link href="~/css/stylelogin.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" />
+</head>
+<body>
+    <div class="auth-wrapper">
+        <div class="auth-container">
+            <div class="auth-action-left">
+                <div class="auth-form-outer">
+                    <h2 class="auth-form-title">
+                        Sign In
+                    </h2>
+                    @*<form class="login-form">*@
+                    @using (Html.BeginForm("LogIn", "LogIn", FormMethod.Post))
+                    {
+                        @*<input type="email" class="auth-form-input" placeholder="Email">*@
+                        @Html.TextBoxFor(e => e.Email, new { @class = "auth-form-input", placeholder = "Email", requiredrequired = "required" })
+                        <div class="input-icon m mb">
+                            @*<input type="password" class="auth-form-input" placeholder="Password">*@
+                            @Html.TextBoxFor(e => e.Password, new { @class = "auth-form-input", placeholder = "Password", requiredrequired = "required", type = "password" })
+                        </div>
+                        <label class="btn active">
+                            <input type="checkbox" name='email1' checked>
+                            <i class="fa fa-square-o"></i><i class="fa fa-check-square-o"></i>
+                            <span> Remember password.</span>
+                        </label>
+                        <div class="footer-action">
+                            <input type="submit" value="Sign In" class="auth-submit">
+                            <a href="register.html" class="auth-btn-direct">Sign Up</a>
+                        </div>
+                    } @*</form>*@
+                    @if (ViewBag.error != null)
+                    {
+                        <div class="auth-forgot-password">
+                            <a href="#">@ViewBag.error</a>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="~/js/common.js"></script>
+</body>
+</html>
+

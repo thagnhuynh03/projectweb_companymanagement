@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\Img\\avartar.jpg"
     },
     {
+      "Id": "D:\\Lập trình web c#\\huynhkimthang_0145_Final_LTC#\\wwwroot\\Img\\avartar1.png",
+      "PackagePath": "staticwebassets\\Img\\avartar1.png"
+    },
+    {
       "Id": "D:\\Lập trình web c#\\huynhkimthang_0145_Final_LTC#\\wwwroot\\Img\\calendar.png",
       "PackagePath": "staticwebassets\\Img\\calendar.png"
     },
@@ -25,8 +29,16 @@
       "PackagePath": "staticwebassets\\css\\style.css"
     },
     {
+      "Id": "D:\\Lập trình web c#\\huynhkimthang_0145_Final_LTC#\\wwwroot\\css\\styleLogin.css",
+      "PackagePath": "staticwebassets\\css\\styleLogin.css"
+    },
+    {
       "Id": "D:\\Lập trình web c#\\huynhkimthang_0145_Final_LTC#\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Lập trình web c#\\huynhkimthang_0145_Final_LTC#\\wwwroot\\js\\common.js",
+      "PackagePath": "staticwebassets\\js\\common.js"
     },
     {
       "Id": "D:\\Lập trình web c#\\huynhkimthang_0145_Final_LTC#\\wwwroot\\js\\site.js",

@@ -3,48 +3,60 @@
   "WorkspaceRootPath": "D:\\L\u1EADp tr\u00ECnh web c#\\huynhkimthang_0145_Final_LTC#\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{36E7B859-46E9-4565-8E53-0829EC05A60E}|huynhkimthang_0145_Final_LTC#.csproj|d:\\l\u1EADp tr\u00ECnh web c#\\huynhkimthang_0145_final_ltc#\\views\\post\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{36E7B859-46E9-4565-8E53-0829EC05A60E}|huynhkimthang_0145_Final_LTC#.csproj|solutionrelative:views\\post\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{36E7B859-46E9-4565-8E53-0829EC05A60E}|huynhkimthang_0145_Final_LTC#.csproj|d:\\l\u1EADp tr\u00ECnh web c#\\huynhkimthang_0145_final_ltc#\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{36E7B859-46E9-4565-8E53-0829EC05A60E}|huynhkimthang_0145_Final_LTC#.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36E7B859-46E9-4565-8E53-0829EC05A60E}|huynhkimthang_0145_Final_LTC#.csproj|d:\\l\u1EADp tr\u00ECnh web c#\\huynhkimthang_0145_final_ltc#\\views\\home\\schedulepost.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{36E7B859-46E9-4565-8E53-0829EC05A60E}|huynhkimthang_0145_Final_LTC#.csproj|solutionrelative:views\\home\\schedulepost.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36E7B859-46E9-4565-8E53-0829EC05A60E}|huynhkimthang_0145_Final_LTC#.csproj|d:\\l\u1EADp tr\u00ECnh web c#\\huynhkimthang_0145_final_ltc#\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{36E7B859-46E9-4565-8E53-0829EC05A60E}|huynhkimthang_0145_Final_LTC#.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36E7B859-46E9-4565-8E53-0829EC05A60E}|huynhkimthang_0145_Final_LTC#.csproj|d:\\l\u1EADp tr\u00ECnh web c#\\huynhkimthang_0145_final_ltc#\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36E7B859-46E9-4565-8E53-0829EC05A60E}|huynhkimthang_0145_Final_LTC#.csproj|solutionrelative:controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{36E7B859-46E9-4565-8E53-0829EC05A60E}|huynhkimthang_0145_Final_LTC#.csproj|d:\\l\u1EADp tr\u00ECnh web c#\\huynhkimthang_0145_final_ltc#\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36E7B859-46E9-4565-8E53-0829EC05A60E}|huynhkimthang_0145_Final_LTC#.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{36E7B859-46E9-4565-8E53-0829EC05A60E}|huynhkimthang_0145_Final_LTC#.csproj|d:\\l\u1EADp tr\u00ECnh web c#\\huynhkimthang_0145_final_ltc#\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{36E7B859-46E9-4565-8E53-0829EC05A60E}|huynhkimthang_0145_Final_LTC#.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36E7B859-46E9-4565-8E53-0829EC05A60E}|huynhkimthang_0145_Final_LTC#.csproj|d:\\l\u1EADp tr\u00ECnh web c#\\huynhkimthang_0145_final_ltc#\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{36E7B859-46E9-4565-8E53-0829EC05A60E}|huynhkimthang_0145_Final_LTC#.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{36E7B859-46E9-4565-8E53-0829EC05A60E}|huynhkimthang_0145_Final_LTC#.csproj|d:\\l\u1EADp tr\u00ECnh web c#\\huynhkimthang_0145_final_ltc#\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{36E7B859-46E9-4565-8E53-0829EC05A60E}|huynhkimthang_0145_Final_LTC#.csproj|solutionrelative:views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36E7B859-46E9-4565-8E53-0829EC05A60E}|huynhkimthang_0145_Final_LTC#.csproj|d:\\l\u1EADp tr\u00ECnh web c#\\huynhkimthang_0145_final_ltc#\\views\\home\\anouncementpost.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{36E7B859-46E9-4565-8E53-0829EC05A60E}|huynhkimthang_0145_Final_LTC#.csproj|solutionrelative:views\\home\\anouncementpost.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{36E7B859-46E9-4565-8E53-0829EC05A60E}|huynhkimthang_0145_Final_LTC#.csproj|d:\\l\u1EADp tr\u00ECnh web c#\\huynhkimthang_0145_final_ltc#\\views\\post\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{36E7B859-46E9-4565-8E53-0829EC05A60E}|huynhkimthang_0145_Final_LTC#.csproj|solutionrelative:views\\post\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36E7B859-46E9-4565-8E53-0829EC05A60E}|huynhkimthang_0145_Final_LTC#.csproj|d:\\l\u1EADp tr\u00ECnh web c#\\huynhkimthang_0145_final_ltc#\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{36E7B859-46E9-4565-8E53-0829EC05A60E}|huynhkimthang_0145_Final_LTC#.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36E7B859-46E9-4565-8E53-0829EC05A60E}|huynhkimthang_0145_Final_LTC#.csproj|d:\\l\u1EADp tr\u00ECnh web c#\\huynhkimthang_0145_final_ltc#\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36E7B859-46E9-4565-8E53-0829EC05A60E}|huynhkimthang_0145_Final_LTC#.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36E7B859-46E9-4565-8E53-0829EC05A60E}|huynhkimthang_0145_Final_LTC#.csproj|d:\\l\u1EADp tr\u00ECnh web c#\\huynhkimthang_0145_final_ltc#\\models\\entities\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36E7B859-46E9-4565-8E53-0829EC05A60E}|huynhkimthang_0145_Final_LTC#.csproj|solutionrelative:models\\entities\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{36E7B859-46E9-4565-8E53-0829EC05A60E}|huynhkimthang_0145_Final_LTC#.csproj|d:\\l\u1EADp tr\u00ECnh web c#\\huynhkimthang_0145_final_ltc#\\models\\entities\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{36E7B859-46E9-4565-8E53-0829EC05A60E}|huynhkimthang_0145_Final_LTC#.csproj|solutionrelative:models\\entities\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36E7B859-46E9-4565-8E53-0829EC05A60E}|huynhkimthang_0145_Final_LTC#.csproj|d:\\l\u1EADp tr\u00ECnh web c#\\huynhkimthang_0145_final_ltc#\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{36E7B859-46E9-4565-8E53-0829EC05A60E}|huynhkimthang_0145_Final_LTC#.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{36E7B859-46E9-4565-8E53-0829EC05A60E}|huynhkimthang_0145_Final_LTC#.csproj|d:\\l\u1EADp tr\u00ECnh web c#\\huynhkimthang_0145_final_ltc#\\models\\entities\\companymanagementcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36E7B859-46E9-4565-8E53-0829EC05A60E}|huynhkimthang_0145_Final_LTC#.csproj|solutionrelative:models\\entities\\companymanagementcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36E7B859-46E9-4565-8E53-0829EC05A60E}|huynhkimthang_0145_Final_LTC#.csproj|d:\\l\u1EADp tr\u00ECnh web c#\\huynhkimthang_0145_final_ltc#\\views\\home\\schedulepost.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{36E7B859-46E9-4565-8E53-0829EC05A60E}|huynhkimthang_0145_Final_LTC#.csproj|solutionrelative:views\\home\\schedulepost.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36E7B859-46E9-4565-8E53-0829EC05A60E}|huynhkimthang_0145_Final_LTC#.csproj|d:\\l\u1EADp tr\u00ECnh web c#\\huynhkimthang_0145_final_ltc#\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36E7B859-46E9-4565-8E53-0829EC05A60E}|huynhkimthang_0145_Final_LTC#.csproj|solutionrelative:controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36E7B859-46E9-4565-8E53-0829EC05A60E}|huynhkimthang_0145_Final_LTC#.csproj|d:\\l\u1EADp tr\u00ECnh web c#\\huynhkimthang_0145_final_ltc#\\views\\home\\anouncementpost.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{36E7B859-46E9-4565-8E53-0829EC05A60E}|huynhkimthang_0145_Final_LTC#.csproj|solutionrelative:views\\home\\anouncementpost.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{36E7B859-46E9-4565-8E53-0829EC05A60E}|huynhkimthang_0145_Final_LTC#.csproj|d:\\l\u1EADp tr\u00ECnh web c#\\huynhkimthang_0145_final_ltc#\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{36E7B859-46E9-4565-8E53-0829EC05A60E}|huynhkimthang_0145_Final_LTC#.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36E7B859-46E9-4565-8E53-0829EC05A60E}|huynhkimthang_0145_Final_LTC#.csproj|d:\\l\u1EADp tr\u00ECnh web c#\\huynhkimthang_0145_final_ltc#\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36E7B859-46E9-4565-8E53-0829EC05A60E}|huynhkimthang_0145_Final_LTC#.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{36E7B859-46E9-4565-8E53-0829EC05A60E}|huynhkimthang_0145_Final_LTC#.csproj|d:\\l\u1EADp tr\u00ECnh web c#\\huynhkimthang_0145_final_ltc#\\models\\entities\\announcement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -59,14 +71,6 @@
       "RelativeMoniker": "D:0:0:{36E7B859-46E9-4565-8E53-0829EC05A60E}|huynhkimthang_0145_Final_LTC#.csproj|solutionrelative:models\\postmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36E7B859-46E9-4565-8E53-0829EC05A60E}|huynhkimthang_0145_Final_LTC#.csproj|d:\\l\u1EADp tr\u00ECnh web c#\\huynhkimthang_0145_final_ltc#\\models\\entities\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36E7B859-46E9-4565-8E53-0829EC05A60E}|huynhkimthang_0145_Final_LTC#.csproj|solutionrelative:models\\entities\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36E7B859-46E9-4565-8E53-0829EC05A60E}|huynhkimthang_0145_Final_LTC#.csproj|d:\\l\u1EADp tr\u00ECnh web c#\\huynhkimthang_0145_final_ltc#\\models\\entities\\companymanagementcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36E7B859-46E9-4565-8E53-0829EC05A60E}|huynhkimthang_0145_Final_LTC#.csproj|solutionrelative:models\\entities\\companymanagementcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\L\u1EADp tr\u00ECnh web c#\\huynhkimthang_0145_Final_LTC#\\Models\\CompanyContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\CompanyContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -78,49 +82,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Search.cshtml",
               "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh web c#\\huynhkimthang_0145_Final_LTC#\\Views\\Post\\Search.cshtml",
               "RelativeDocumentMoniker": "Views\\Post\\Search.cshtml",
               "ToolTip": "D:\\L\u1EADp tr\u00ECnh web c#\\huynhkimthang_0145_Final_LTC#\\Views\\Post\\Search.cshtml",
               "RelativeToolTip": "Views\\Post\\Search.cshtml",
-              "ViewState": "AQIAAEsAAAAAAAAAAAAAAAMAAAAtAAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAAAAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-05-20T15:13:44.053Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SchedulePost.cshtml",
-              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh web c#\\huynhkimthang_0145_Final_LTC#\\Views\\Home\\SchedulePost.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\SchedulePost.cshtml",
-              "ToolTip": "D:\\L\u1EADp tr\u00ECnh web c#\\huynhkimthang_0145_Final_LTC#\\Views\\Home\\SchedulePost.cshtml",
-              "RelativeToolTip": "Views\\Home\\SchedulePost.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-20T13:18:31.987Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh web c#\\huynhkimthang_0145_Final_LTC#\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "D:\\L\u1EADp tr\u00ECnh web c#\\huynhkimthang_0145_Final_LTC#\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABYAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T02:02:34.048Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh web c#\\huynhkimthang_0145_Final_LTC#\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
@@ -128,23 +107,103 @@
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-19T03:24:18.396Z"
+              "WhenOpened": "2024-05-19T03:24:18.396Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh web c#\\huynhkimthang_0145_Final_LTC#\\Models\\Entities\\Employee.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\Employee.cs",
+              "ToolTip": "D:\\L\u1EADp tr\u00ECnh web c#\\huynhkimthang_0145_Final_LTC#\\Models\\Entities\\Employee.cs",
+              "RelativeToolTip": "Models\\Entities\\Employee.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAA1wAMAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T14:36:59.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh web c#\\huynhkimthang_0145_Final_LTC#\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\L\u1EADp tr\u00ECnh web c#\\huynhkimthang_0145_Final_LTC#\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACAAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T01:45:35.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh web c#\\huynhkimthang_0145_Final_LTC#\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\L\u1EADp tr\u00ECnh web c#\\huynhkimthang_0145_Final_LTC#\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAAAGYAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-19T03:01:26.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh web c#\\huynhkimthang_0145_Final_LTC#\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "D:\\L\u1EADp tr\u00ECnh web c#\\huynhkimthang_0145_Final_LTC#\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBUAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T02:02:34.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LogInController.cs",
+              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh web c#\\huynhkimthang_0145_Final_LTC#\\Controllers\\LogInController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LogInController.cs",
+              "ToolTip": "D:\\L\u1EADp tr\u00ECnh web c#\\huynhkimthang_0145_Final_LTC#\\Controllers\\LogInController.cs",
+              "RelativeToolTip": "Controllers\\LogInController.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAQwB8AAABYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T00:16:56.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LogIn.cshtml",
+              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh web c#\\huynhkimthang_0145_Final_LTC#\\Views\\LogIn\\LogIn.cshtml",
+              "RelativeDocumentMoniker": "Views\\LogIn\\LogIn.cshtml",
+              "ToolTip": "D:\\L\u1EADp tr\u00ECnh web c#\\huynhkimthang_0145_Final_LTC#\\Views\\LogIn\\LogIn.cshtml",
+              "RelativeToolTip": "Views\\LogIn\\LogIn.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T02:03:39.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Post.cs",
               "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh web c#\\huynhkimthang_0145_Final_LTC#\\Models\\Entities\\Post.cs",
               "RelativeDocumentMoniker": "Models\\Entities\\Post.cs",
               "ToolTip": "D:\\L\u1EADp tr\u00ECnh web c#\\huynhkimthang_0145_Final_LTC#\\Models\\Entities\\Post.cs",
               "RelativeToolTip": "Models\\Entities\\Post.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAqwCIAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T08:07:30.835Z"
+              "WhenOpened": "2024-05-20T08:07:30.835Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "AnouncementPost.cshtml",
               "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh web c#\\huynhkimthang_0145_Final_LTC#\\Views\\Home\\AnouncementPost.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\AnouncementPost.cshtml",
@@ -156,19 +215,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh web c#\\huynhkimthang_0145_Final_LTC#\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\L\u1EADp tr\u00ECnh web c#\\huynhkimthang_0145_Final_LTC#\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAFEAAAAAAAAAAAAAAFoAAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-19T03:01:26.365Z"
+              "DocumentIndex": 9,
+              "Title": "CompanyManagementContext.cs",
+              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh web c#\\huynhkimthang_0145_Final_LTC#\\Models\\Entities\\CompanyManagementContext.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\CompanyManagementContext.cs",
+              "ToolTip": "D:\\L\u1EADp tr\u00ECnh web c#\\huynhkimthang_0145_Final_LTC#\\Models\\Entities\\CompanyManagementContext.cs",
+              "RelativeToolTip": "Models\\Entities\\CompanyManagementContext.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAQAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T14:36:43.79Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
+              "Title": "SchedulePost.cshtml",
+              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh web c#\\huynhkimthang_0145_Final_LTC#\\Views\\Home\\SchedulePost.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\SchedulePost.cshtml",
+              "ToolTip": "D:\\L\u1EADp tr\u00ECnh web c#\\huynhkimthang_0145_Final_LTC#\\Views\\Home\\SchedulePost.cshtml",
+              "RelativeToolTip": "Views\\Home\\SchedulePost.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-20T13:18:31.987Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "PostController.cs",
               "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh web c#\\huynhkimthang_0145_Final_LTC#\\Controllers\\PostController.cs",
               "RelativeDocumentMoniker": "Controllers\\PostController.cs",
@@ -180,19 +251,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh web c#\\huynhkimthang_0145_Final_LTC#\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
-              "ToolTip": "D:\\L\u1EADp tr\u00ECnh web c#\\huynhkimthang_0145_Final_LTC#\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "Views\\_ViewStart.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-20T11:14:28.312Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh web c#\\huynhkimthang_0145_Final_LTC#\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
@@ -204,19 +263,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh web c#\\huynhkimthang_0145_Final_LTC#\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\L\u1EADp tr\u00ECnh web c#\\huynhkimthang_0145_Final_LTC#\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T01:45:35.015Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "Announcement.cs",
               "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh web c#\\huynhkimthang_0145_Final_LTC#\\Models\\Entities\\Announcement.cs",
               "RelativeDocumentMoniker": "Models\\Entities\\Announcement.cs",
@@ -228,7 +275,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "Schedule.cs",
               "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh web c#\\huynhkimthang_0145_Final_LTC#\\Models\\Entities\\Schedule.cs",
               "RelativeDocumentMoniker": "Models\\Entities\\Schedule.cs",
@@ -240,7 +287,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "PostModel.cs",
               "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh web c#\\huynhkimthang_0145_Final_LTC#\\Models\\PostModel.cs",
               "RelativeDocumentMoniker": "Models\\PostModel.cs",
@@ -252,31 +299,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "CompanyManagementContext.cs",
-              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh web c#\\huynhkimthang_0145_Final_LTC#\\Models\\Entities\\CompanyManagementContext.cs",
-              "RelativeDocumentMoniker": "Models\\Entities\\CompanyManagementContext.cs",
-              "ToolTip": "D:\\L\u1EADp tr\u00ECnh web c#\\huynhkimthang_0145_Final_LTC#\\Models\\Entities\\CompanyManagementContext.cs",
-              "RelativeToolTip": "Models\\Entities\\CompanyManagementContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T14:36:43.79Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh web c#\\huynhkimthang_0145_Final_LTC#\\Models\\Entities\\Employee.cs",
-              "RelativeDocumentMoniker": "Models\\Entities\\Employee.cs",
-              "ToolTip": "D:\\L\u1EADp tr\u00ECnh web c#\\huynhkimthang_0145_Final_LTC#\\Models\\Entities\\Employee.cs",
-              "RelativeToolTip": "Models\\Entities\\Employee.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAgwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T14:36:59.272Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "CompanyContext.cs",
               "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh web c#\\huynhkimthang_0145_Final_LTC#\\Models\\CompanyContext.cs",
               "RelativeDocumentMoniker": "Models\\CompanyContext.cs",

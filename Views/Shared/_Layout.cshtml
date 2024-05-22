@@ -1,4 +1,8 @@
-﻿<!DOCTYPE html>
+﻿@{
+    var name = Context.Session.GetString("FullName");
+    var img_url = Context.Session.GetString("Img");
+}
+<!DOCTYPE html>
 <html data-wf-domain="denali-template.webflow.io" data-wf-page="5e4b1a54e48aed7a171ff230" data-wf-site="5e4b1a54e48aed761d1ff229" data-wf-status="1">
     <head>
         <meta charset="utf-8"/>
@@ -103,8 +107,8 @@
                 <div class="w-row">
                     <div class="w-hidden-small w-hidden-tiny w-col w-col-3">
                         <div class="white-wrapper">
-                        <img src="/Img/avartar.jpg" alt="" class="avartar-profile" />
-                            <p class="site-description">Huỳnh Kim Thắng</p>
+                        <img src="/Img/@img_url" alt="" class="avartar-profile" />
+                            <p class="site-description">@name</p>
                             
                             
                         </div>
