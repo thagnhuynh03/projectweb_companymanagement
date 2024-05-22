@@ -1,5 +1,7 @@
 ﻿using huynhkimthang_0145_Final_LTC_.Models.Entities;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace huynhkimthang_0145_Final_LTC_.Controllers
 {
@@ -24,13 +26,23 @@ namespace huynhkimthang_0145_Final_LTC_.Controllers
             if(ModelState.IsValid)
             {
 
-                var data = _context.Employees.Where(e => e.Email.Equals(employee.Email) && e.Password.Equals(employee.Password)).ToList();
+                var data = _context.Employees
+                    .Where(e => e.Email.Equals(employee.Email) && e.Password.Equals(employee.Password)).ToList();
                 if (data.Count() > 0)
                 {
                     //add session
                     HttpContext.Session.SetString("FullName", data.FirstOrDefault().EmpName);
                     HttpContext.Session.SetString("Img", data.FirstOrDefault().Avartar);
                     HttpContext.Session.SetInt32("idEmp", data.FirstOrDefault().EmpId);
+                    int? roleId = data.FirstOrDefault()?.RoleId;
+                    if (roleId.HasValue)
+                    {
+                        HttpContext.Session.SetInt32("idRole", roleId.Value);
+                    }
+                    else
+                    {
+                        throw new InvalidOperationException("RoleId is null.");
+                    }
                     return RedirectToAction("Index", "Home");
                 }
                 else

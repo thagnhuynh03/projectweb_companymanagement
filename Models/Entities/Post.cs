@@ -1,16 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace huynhkimthang_0145_Final_LTC_.Models.Entities;
 
 public partial class Post
 {
     public int PostId { get; set; }
-
+    [StringLength(150, MinimumLength = 20, ErrorMessage = "Title length must be between 20 and 150 characters.")]
     public string? Title { get; set; }
 
     public string? Content { get; set; }
-
+    [DataType(DataType.Date)]
+    [DisplayFormat(DataFormatString = "{0:dd/MM/yyyy}", ApplyFormatInEditMode = true)]
     public DateOnly? CreatedDate { get; set; }
 
     public string? ThumbnailImg { get; set; }

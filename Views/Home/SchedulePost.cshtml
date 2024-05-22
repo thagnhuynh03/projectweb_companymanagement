@@ -25,7 +25,7 @@
                                             <div class="icon-wrapper">
                                                 <img src="/Img/calendar.png" alt="" class="icon">
                                             </div>
-                                            <div class="time-info">@item.StartTime</div>
+                                            <div class="time-info">@item.StartTime?.ToString("dd/MM/yyyy hh:mm tt")</div>
                                         </div>
                                         <div class="schedule-info">
                                             <div class="icon-wrapper">
@@ -44,7 +44,7 @@
                                 </div>
 
                             </div>
-                            <div class="post-author">Posted by: @item.Post.Emp.EmpName | Created on: @item.Post.CreatedDate</div>
+                            <div class="post-author">Posted by: @item.Post.Emp.EmpName | Created on: @item.Post.CreatedDate?.ToString("dd/MM/yyyy")</div>
                         </div>
                     </div>
                 </div>
