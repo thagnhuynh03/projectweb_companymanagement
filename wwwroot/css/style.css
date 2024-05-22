@@ -35,41 +35,53 @@
     display: inline-block;
 }
 
-/* Dropdown content (hidden by default) */
+
 .dropdown-content {
     display: none;
     position: absolute;
     background-color: white;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    width: 160px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
     z-index: 1;
+    opacity: 0;
+    transition: opacity 0.3s ease;
 }
 
-/* Dropdown items */
 .dropdown-item {
     color: black;
-    padding: 12px 16px;
+    padding: 16px 20px;
     text-decoration: none;
+    white-space: normal !important;
     display: block;
 }
-
-/* Change color of dropdown links on hover */
 .dropdown-item:hover {
     background-color: #ddd;
 }
 
-/* Show the dropdown content on hover */
 .dropdown:hover .dropdown-content {
     display: block;
+    opacity: 1;
 }
-/* Ensure the parent container uses Flexbox */
+
+
+.publish-dropdown .post-button {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+}
+.publish-dropdown .post-button:hover {
+    background-color: #45a049;
+}
+
+.publish-dropdown .dropdown-content {
+    right: 0;
+    left: auto;
+}
+
 .post-content {
-    position: relative; /* Ensure the container is positioned relatively */
+    position: relative;
 }
 
-/* Style for the post-summary to take the remaining space */
-
-/* Style for the author div */
 .post-author {
     position: absolute;
     bottom: 0;
@@ -86,7 +98,6 @@
     user-select: none;
 }
 
-/* Style for the dropdown menu */
 .dropdown-menu {
     display: none;
     position: absolute;
@@ -98,7 +109,6 @@
     z-index: 1000;
 }
 
-/* Style for dropdown items */
 .dropdown-menu a {
     display: block;
     padding: 10px;
