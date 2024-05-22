@@ -67,7 +67,6 @@ namespace huynhkimthang_0145_Final_LTC_.Controllers
         public IActionResult CreateAnouncementPost(AnouncementViewModel model)
         {
             ViewBag.Categories = _context.AnnouncementCategories.ToList();
-            return View();
             if (model.ThumbnailImg == null)
             {
                 ModelState.AddModelError("ThumbnailImg", "The image file is required");
