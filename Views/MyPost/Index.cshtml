@@ -35,8 +35,8 @@
                             <div class="dropdown-trigger">
                                 <span>•••</span>
                                 <div class="dropdown-menu">
-                                    <a href="#">Update</a>
-                                    <a href="#">Delete</a>
+                                    <a asp-controller="MyPost" asp-action="UpdateAnouncementPost" asp-route-id="@item.AnnId">Update</a>
+                                    <a asp-controller="MyPost" asp-action="DeleteAnouncementPost" asp-route-id="@item.AnnId">Delete</a>
                                 </div>
                             </div>
                         </div>
@@ -89,8 +89,8 @@
                             <div class="dropdown-trigger">
                                 <span>•••</span>
                                 <div class="dropdown-menu">
-                                    <a href="#">Update</a>
-                                    <a href="#">Delete</a>
+                                    <a asp-controller="MyPost" asp-action="UpdateSchedulePost" asp-route-id="@item.SchId">Update</a>
+                                    <a asp-controller="MyPost" asp-action="DeleteSchedulePost" asp-route-id="@item.SchId">Delete</a>
                                 </div>
                             </div>
                         </div>

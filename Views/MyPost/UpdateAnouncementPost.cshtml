@@ -1,20 +1,26 @@
-﻿@model huynhkimthang_0145_Final_LTC_.Models.ScheduleViewModel
+﻿@model huynhkimthang_0145_Final_LTC_.Models.AnouncementViewModel
 @{
-    ViewData["Title"] = "CreateSchedulePost";
+    ViewData["Title"] = "UpdateAnouncementPost";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-
 <div class="content-column w-col w-col-9">
     <div class="container">
 
         <div class="row">
 
             <div class="col-xl-8 offset-xl-2 py-5">
-                <h1>New Schedule Post</h1>
-                <form id="post-form" method="post" asp-action="CreateSchedulePost" role="form" enctype="multipart/form-data">
+                <h1>Update Anouncement Post</h1>
+                <form id="post-form" method="post" asp-action="UpdateAnouncementPost" role="form" enctype="multipart/form-data">
                     <div class="messages"></div>
                     <div class="controls">
                         <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label for="form_id">AnnId</label>
+                                    <input id="form_id" type="text" value="@ViewData["AnnId"]" class="form-control" readonly>
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
                             <div class="col-md-12">
                                 <div class="form-group">
                                     <label for="form_title">Title *</label>
@@ -35,32 +41,36 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="form-group">
-                                    <label for="form_image">Image URL *</label><br>
-                                    <input id="form_image" asp-for="ThumbnailImg" required="required" data-error="Image URL is required.">
+                                    <label for="form_image">Image URL</label><br>
+                                    <input id="form_image" asp-for="ThumbnailImg">
                                 </div>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="form-group">
-                                    <label for="form_datetime">Date and Time *</label>
-                                    <input id="form_datetime" type="datetime-local" asp-for="Time" class="form-control" required="required" data-error="Date and time are required.">
-                                    <div class="help-block with-errors"></div>
+                                    <img src="/Img/@ViewData["ImgFileName"]" width="150px" />
                                 </div>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="form-group">
-                                    <label for="form_location">Location *</label>
-                                    <input id="form_location" type="text" asp-for="Location" class="form-control" placeholder="Enter your schedule location *" required="required" data-error="Title is required.">
+                                    <label for="form_category">Category *</label>
+                                    <select id="form_category" asp-for="AnnCateId" class="form-control" required="required" data-error="Please select a category.">
+                                        <option value=""></option>
+                                        @foreach (var item in ViewBag.Categories)
+                                        {
+                                            <option value="@item.AnnCateId">@item.AnnCateName</option>
+                                        }
+                                    </select>
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md-12">
-                                <input type="submit" class="btn btn-success btn-send" value="Pushlish">
+                                <input type="submit" class="btn btn-success btn-send" value="Update">
                             </div>
                         </div>
                     </div>

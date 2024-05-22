@@ -148,5 +148,62 @@ namespace huynhkimthang_0145_Final_LTC_.Controllers
 
             return RedirectToAction("Index", "MyPost");
         }
+        [HttpGet]
+        public IActionResult UpdateAnouncementPost(int id)
+        {
+            ViewBag.Categories = _context.AnnouncementCategories.ToList();
+            var anouncement = _context.Announcements
+            .Include(a => a.Post)
+            .FirstOrDefault(a => a.AnnId == id);
+            if (anouncement == null || anouncement.Post == null)
+            {
+                return RedirectToAction("Index", "MyPost");
+            }
+            var model = new AnouncementViewModel()
+            {
+                Title = anouncement.Post.Title,
+                Content = anouncement.Post.Content,
+                AnnCateId = anouncement.AnnCateId
+            };
+
+            ViewData["AnnId"] = anouncement.AnnId;
+            ViewData["ImgFileName"] = anouncement.Post.ThumbnailImg;
+            return View(model);
+        }
+        [HttpPost]
+        public IActionResult UpdateAnouncementPost(int id, AnouncementViewModel model)
+        {
+            var anouncement = _context.Announcements
+            .Include(a => a.Post)
+            .FirstOrDefault(a => a.AnnId == id);
+            if (anouncement == null || anouncement.Post == null)
+            {
+                return RedirectToAction("Index", "MyPost");
+            }
+
+            string newFileName = anouncement.Post.ThumbnailImg;
+            if (model.ThumbnailImg != null)
+            {
+                newFileName = DateTime.Now.ToString("yyyyMMddHHmmssfff");
+                newFileName += Path.GetExtension(model.ThumbnailImg.FileName);
+
+                string imageFullPath = _environment.WebRootPath + "/Img/" + newFileName;
+                using (var stream = System.IO.File.Create(imageFullPath))
+                {
+                    model.ThumbnailImg.CopyTo(stream);
+                }
+
+                string oldImageFullPath = _environment.WebRootPath + "/Img/" + anouncement.Post.ThumbnailImg;
+                System.IO.File.Delete(oldImageFullPath);
+            }
+
+            anouncement.Post.Title = model.Title;
+            anouncement.Post.Content = model.Content;
+            anouncement.Post.ThumbnailImg = newFileName;
+            anouncement.AnnCateId = model.AnnCateId;
+
+            _context.SaveChanges();
+            return RedirectToAction("Index", "MyPost");
+        }
     }
 }

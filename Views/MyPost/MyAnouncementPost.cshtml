@@ -32,6 +32,13 @@
 
                             </div>
                             <div class="post-author">Posted by: @item.Post.Emp.EmpName | Created on: @item.Post.CreatedDate</div>
+                            <div class="dropdown-trigger">
+                                <span>•••</span>
+                                <div class="dropdown-menu">
+                                    <a asp-controller="MyPost" asp-action="UpdateAnouncementPost" asp-route-id="@item.AnnId">Update</a>
+                                    <a asp-controller="MyPost" asp-action="DeleteAnouncementPost" asp-route-id="@item.AnnId">Delete</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
