@@ -1,3 +1,6 @@
+Họ và tên: Huỳnh Kim Thắng
+Mã sinh viên: 21115053120145
+Lớp HP: 223LTC04
 Các bước cài đặt chương trình:
 1. Tạo project Asp.net Core Web app (Model-View-Controller)
 2. Tạo database
